@@ -40,4 +40,3 @@ where ano = '2018'
 limit 3;
 
 truncate cursos; -- deletas TODAS as linhas da tabela
-
