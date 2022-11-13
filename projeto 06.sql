@@ -1,7 +1,6 @@
 -- nessa atividade consiste em fazer um backup do banco (DUMP) de dados 
 -- vamos começar verificando tudo
 use cadastro;
-
 select * from cursos;
 describe cursos;
 select * from gafanhotos;
@@ -14,7 +13,7 @@ describe gafanhotos;
 -- clicar em start
 
 -- depois vamos por a prova destruindo todo o banco de dados
-drop database cadastro;
+drop database exemplo;
 
 -- agora vamos recuperar os dados usando o backup, nesse caso em especifico foi colocado no git
 
